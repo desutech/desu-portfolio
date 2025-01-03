@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { div } from "three/tsl";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -54,6 +55,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+  <div style={{ width: '100%', height: '100%', position: 'relative' }}>
     <Canvas
       frameloop='demand'
       shadows
@@ -72,7 +74,7 @@ const ComputersCanvas = () => {
       </Suspense>
 
       <Preload all />
-    </Canvas>
+    </Canvas></div>
   );
 };
 

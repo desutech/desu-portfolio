@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 hidden md:block">
       <ComputersCanvas />
       </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

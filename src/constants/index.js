@@ -214,6 +214,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/desutech/Amazon-clone",
+    live: "https://desutech-amazone.netlify.app/",
   },
   {
     name: "Netflix Clone",
@@ -235,6 +236,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/desutech/Netflix-Clone-2024",
+    live: "https://desutech.github.io/Netflix-Clone-2024/",
   },
   {
     name: "Evangadi Forum",
@@ -256,6 +258,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/desutech/evangadi-forum-server",
+    live: "https://evangadi-forum-client-six.vercel.app/",
   },
 ];
 
